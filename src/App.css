@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .app-container {
+    display: flex;
+    height: 100vh;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .left-side {
+    width: 470px;
+    background-image: url("Screenshot_2-7-2024_14318_employer.apna.co.jpeg");
   }
-  to {
-    transform: rotate(360deg);
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
   }
-}
+  
+  .signin{
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 240px;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .signin h2 {
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+  
+  .signin p {
+    margin-bottom: 18px;
+    font-size: 15px;
+  }
+  
+  .inputfield {
+    margin-bottom: 25px;
+  }
+  
+  .inputfield label {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .inputfield input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .para{
+    font-size: 10px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin-bottom: 20px;
+    color: #0074e8;
+  }
+  
+  .sign-in-button {
+    background-color: #1f8268;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 470px;
+    margin-bottom: 22px;
+  }
+  .para1{
+    font-size: 12px;
+  }
+  a{
+    color: #0074e8;
+  }
+  
+  .earlyaccess{
+    background-color: #fff9db;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .earlyaccess h3{
+    margin-bottom: 10px;
+  }
+  
+  .earlyaccess p{
+    margin-bottom: 15px;
+  }
+  
+  .requestbutton {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .endside{
+    margin: 33px;
+    padding: auto;
+  }
+
+  .para3{
+font-size: 17px;
+  }
+
+  a{
+    color: #0074e8;
+  }
