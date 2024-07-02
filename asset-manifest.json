@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/APNAHIRE-LOGIN/static/css/main.a55cb2d6.css",
+    "main.js": "/APNAHIRE-LOGIN/static/js/main.7844b13a.js",
+    "static/media/Screenshot_2-7-2024_14318_employer.apna.co.jpeg": "/APNAHIRE-LOGIN/static/media/Screenshot_2-7-2024_14318_employer.apna.co.e79543cc93ab7a808f51.jpeg",
+    "static/media/Screenshot_2-7-2024_22544_employer.apna.co.jpeg": "/APNAHIRE-LOGIN/static/media/Screenshot_2-7-2024_22544_employer.apna.co.60a42da24bc7330810a4.jpeg",
+    "index.html": "/APNAHIRE-LOGIN/index.html",
+    "main.a55cb2d6.css.map": "/APNAHIRE-LOGIN/static/css/main.a55cb2d6.css.map",
+    "main.7844b13a.js.map": "/APNAHIRE-LOGIN/static/js/main.7844b13a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a55cb2d6.css",
+    "static/js/main.7844b13a.js"
+  ]
+}
