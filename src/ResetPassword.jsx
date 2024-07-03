@@ -1,22 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './ResetPassword.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope,faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 
 const ResetPassword = () => {
-  // Reset password form logic here...
-
   return (
     <div className='container'>
       <div className='leftside'>
-        {/* Content for the left side if any */}
       </div>
       <div className='rightside'>
-        <Link to="/" className="backpage">Back to sign in</Link>
+        <Link to="/" className="backpage"><FontAwesomeIcon icon={faArrowLeft} />Back to sign in</Link>
         <div className="apnahire">
-          {/* Content for apnahire if any */}
         </div>
         <div className="image">
-          {/* Content for image if any */}
         </div>
         <div className="form">
           <br />
