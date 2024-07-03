@@ -21,7 +21,7 @@ function App(){
     <Router>
       <Routes>
         <Route path="/" element={
-          <div className="app-container">
+          <div className="container">
             <div className="left-side">
             </div>
             <div className="right-side">
